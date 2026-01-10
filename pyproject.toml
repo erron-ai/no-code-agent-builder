@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "no-code-agent-builder"
+version = "0.1.0"
+description = "Visual web tool for non-technical users to assemble agents from components."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "erron.ai"}]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/erron-ai/no-code-agent-builder"
+Issues = "https://github.com/erron-ai/no-code-agent-builder/issues"
+
+[project.scripts]
+no-code-agent-builder = "no_code_agent_builder.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
