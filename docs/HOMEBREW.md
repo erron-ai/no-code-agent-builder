@@ -9,3 +9,5 @@ no-code-agent-builder --help
 ```
 
 A formal tap/formula can be added after stable release artifacts are published.
+
+Maintained by [Erron AI](https://erron.ai). Contact: [info@erron.ai](mailto:info@erron.ai)
